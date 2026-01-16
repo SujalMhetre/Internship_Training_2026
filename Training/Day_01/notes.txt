@@ -1,0 +1,136 @@
+Day 01 – HTML Basics and Tags
+
+1. What is HTML?
+
+HTML stands for HyperText Markup Language.
+It is used to create and structure web pages.
+
+HTML tells the browser:
+
+- what is a heading
+- what is a paragraph
+- what is a link
+- what is an image
+
+HTML is used only for structure, not for styling or logic.
+
+Role in Web Development:
+- HTML -> Structure
+- CSS -> Styling
+- JavaScript -> Behavior
+
+2. HTML Element
+
+An HTML element usually contains:
+
+- an opening tag
+- some content
+- a closing tag
+
+Some elements do not have a closing tag.These are called empty elements.
+
+3. HTML Tags
+
+HTML tags are written inside angle brackets < >.
+Tags are used to define elements and content on a web page.
+
+4. Types of HTML Tags
+
+A. Paired Tags
+
+- Have both opening and closing tags
+- Used when content is present
+
+Examples:
+
+- headings
+- paragraphs
+- links
+
+B. Unpaired (Self-Closing) Tags
+
+- Do not have closing tags
+- Used to insert content
+
+Examples:
+
+- image
+- line break
+- input
+
+5. Block-Level Elements
+
+- Always starts on a new line
+- Take full width available of the page
+
+Examples:
+
+- heading
+- paragraph
+- div
+- section
+
+6. Inline Elements
+
+- Do not start on a new line
+- Take only required space
+
+Examples:
+
+- span
+- anchor
+- strong
+- emphasis
+
+7. Semantic HTML Tags
+
+Semantic tags clearly describe the meaning of the content.
+
+Examples:
+
+- header
+- nav
+- section
+- article
+- footer
+- main
+
+Advantages of semantic tags:
+
+- Code is easy to read
+- Better for SEO
+- Improves accessibility
+
+8. Non-Semantic Tags
+
+These tags do not clearly describe their meaning.
+
+Examples:
+
+- div
+- span
+
+HTML Attributes
+
+Attributes provide extra information about an element.
+
+Common attributes:
+
+* id -> unique identification
+* class -> group of elements
+* style -> inline styling
+* title -> extra information
+
+Common HTML Mistakes
+
+- Using div everywhere instead of semantic tags
+- Skipping heading order
+- Forgetting alt text in images
+- Using HTML for styling instead of CSS.
+
+✔ Day 01 Summary
+
+- Learned what HTML is
+- Understood elements and tags
+- Learned block vs inline elements
+- Understood importance of semantic HTML
