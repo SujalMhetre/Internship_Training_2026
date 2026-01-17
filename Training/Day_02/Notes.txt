@@ -1,0 +1,97 @@
+Day 02 – HTML Forms & Tables
+
+1. Forms in HTML
+What is a Form?
+
+A form is used to collect input from users and send that data to a server.
+
+Forms are commonly used for:
+
+- login pages
+- signup pages
+- contact forms
+- feedback forms
+
+* <form> Tag
+
+The <form> tag wraps all input elements and controls how data is sent.
+
+Important attributes:
+
+- action → where the form data goes
+- method → how the data is sent
+
+* GET → data visible in URL
+
+* POST → data sent securely
+
+Common Form Elements
+
+- input → takes user input (text, email, password, etc.)
+- label → describes the input field (improves clarity & accessibility)
+- textarea → multi-line text input
+- select & option → dropdown list
+- button → submits the form
+
+Why Form Validation Matters
+
+Validation ensures:
+
+- required fields are filled
+- correct data format is entered
+- bad or empty input is avoided
+
+* This improves:
+
+- user experience
+- data quality
+
+Why Forms Are Important
+
+- enable user interaction
+- collect data
+- essential for dynamic websites
+
+2. Tables in HTML
+What is a Table?
+
+A table is used to display structured data in rows and columns.
+
+- Common use cases:
+- user lists
+- reports
+- marksheets
+- product details
+
+Table Structure
+
+- table → main container
+- tr → table row
+- th → table heading
+- td → table data
+
+* <th> vs <td>
+
+- <th> → column or row heading
+- <td> → actual data
+
+When to Use Tables
+
+Use tables when:
+
+- data is structured
+- comparison is needed
+- rows and columns make sense
+
+When NOT to Use Tables
+
+- for page layout
+- for design purposes
+Use CSS instead.
+
+Day 02 Summary
+
+- learned how forms collect user data
+- understood form elements and attributes
+- learned importance of validation
+- understood table structure and usage
