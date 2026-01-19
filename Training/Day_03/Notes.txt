@@ -1,0 +1,93 @@
+Day 03 – List Tags & Frameset
+
+1. List Tags in HTML
+
+Lists are used to display related items in a structured and readable form.
+HTML supports three types of lists.
+
+a) Ordered List (<ol>)
+
+- Used when the order of items matters
+- Items are displayed in a numbered sequence (1, 2, 3…)
+Common use cases:
+  * Steps in a process
+  * Ranking or priority-based content
+  * Instructions or procedures
+
+Each item inside an ordered list is represented using a list item tag.
+
+b) Unordered List (<ul>)
+
+- Used when order does NOT matter
+- Items are displayed using bullets (•)
+- Common use cases:
+   * Navigation menus
+   * Feature lists
+   * General grouping of items
+
+Each item is also written using the list item tag.
+
+c) Description List (<dl>)
+
+- Used to represent terms and their descriptions
+- Common use cases:
+   * Definitions
+   * Glossaries
+   * Key–value type information
+
+It consists of:
+- A term
+- A description related to that term
+
+Why Lists Are Important
+
+- Improve content readability
+- Help structure data clearly
+- Widely used in menus, forms, and layouts
+- Enhance accessibility and SEO
+
+2. Frameset in HTML
+
+Frameset was used to divide a browser window into multiple sections, where each section could load a different HTML document.
+
+  Note: Frameset is deprecated and not used in modern web development, but understanding it is useful for legacy projects.
+
+What is a Frameset?
+
+- Frameset replaces the <body> tag
+- It allows splitting the page into:
+   * Rows
+   * Columns
+- Each section (frame) loads a separate HTML file
+
+Common Uses of Frameset (Earlier)
+
+- Showing navigation in one frame and content in another
+- Keeping header or sidebar static while content changes
+- Multi-page layouts without reloading the full page
+
+Disadvantages of Frameset
+
+- Poor SEO support
+- Difficult to maintain
+- Bad user experience (scrolling, bookmarking issues)
+- Not supported in HTML5
+
+Because of these issues, framesets are now replaced by:
+
+- CSS layouts
+- Flexbox
+- Grid
+- Modern UI frameworks
+
+Key Learning from Frameset
+
+- Helped understand page division concepts
+- Introduced the idea of separating layout and content
+- Laid foundation for modern layout techniques
+
+Day 03 Summary
+
+- Learned different types of HTML lists and their use cases
+- Understood how frameset worked and why it is obsolete
+- Gained clarity on structuring content effectively
