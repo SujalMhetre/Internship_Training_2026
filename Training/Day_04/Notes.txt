@@ -1,0 +1,85 @@
+Day 04 – JavaScript(intro,if-else,loops,arrays)
+
+🔹 Introduction to JavaScript
+
+- JavaScript is a programming language used to make web pages interactive
+- It runs inside the browser
+- JavaScript is used for:
+    * Handling user actions
+    * Making decisions
+    * Manipulating data
+- Difference between:
+    * HTML → Structure of the webpage
+    * CSS → Styling of the webpage
+    * JavaScript → Logic and behavior of the webpage
+
+🔹 JavaScript Variables
+
+- A variable is used to store data values
+- Variables help reuse and manipulate data
+- Types of variables in JavaScript:
+   * var
+   * let
+   * const
+- Difference between let and const:
+   * let → value can be changed
+   * const → value cannot be changed
+   * Rules for naming variables:
+   * Must start with a letter, _ or $
+   * Cannot use keywords
+   * Case-sensitive
+
+🔹 Conditional Statements (if–else)
+
+- Conditional statements are used to make decisions
+- The program executes different code based on conditions
+- Types of conditional statements:
+   * if
+   * if–else
+   * else–if ladder
+- Comparison operators:
+   * >, <, >=, <=
+   * ==, ===
+- Logical operators:
+   * AND (&&)
+   * OR (||)
+
+Real-life example to mention:
+- Checking eligibility for voting
+- Checking pass or fail
+
+🔹 Loops in JavaScript
+
+- Loops are used to repeat a block of code multiple times
+- Types of loops:
+   * for loop
+   * while loop
+   * do–while loop
+- Difference:
+   * for → when number of iterations is known
+   * while → condition-based loop
+   * do–while → runs at least once
+- Loops help reduce code repetition
+
+🔹 Arrays in JavaScript
+
+- An array is a data structure that stores multiple values
+- Array elements are accessed using index numbers
+- Index starts from 0
+- Arrays are useful for storing:
+   * Numbers
+   * Strings
+   * Multiple related values
+- Common operations:
+   * Accessing elements
+   * Updating values
+   * Finding array length
+
+🔹 Day 04 Summary
+
+- Learned basics of JavaScript
+- Understood how variables store data
+- Learned decision-making using if–else
+- Learned repetition using loops
+- Learned how arrays store multiple values
+- Implemented JavaScript logic using a script file
