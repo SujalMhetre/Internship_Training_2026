@@ -1,0 +1,173 @@
+# Day 6 – CSS Task Notes
+
+## 1) CSS Selectors
+
+Selectors are used to target HTML elements for styling.
+
+### Basic Selectors
+
+* `*` → Universal selector (all elements)
+* `element` → Type selector (e.g. `div`, `p`, `input`)
+* `.class` → Class selector
+* `#id` → ID selector
+
+### Grouping
+
+* `h1, h2, p` → Group selector
+
+### Descendant & Child
+
+* `div p` → Descendant selector
+* `div > p` → Direct child selector
+
+### Sibling
+
+* `h1 + p` → Adjacent sibling
+* `h1 ~ p` → General sibling
+
+### Attribute
+
+* `input[type="text"]`
+* `a[href]`
+
+### Pseudo-class
+
+* `:hover`
+* `:focus`
+* `:active`
+* `:checked`
+* `:first-child`
+* `:last-child`
+
+### Pseudo-element
+
+* `::before`
+* `::after`
+* `::first-letter`
+* `::first-line`
+
+---
+
+## 2) Div Look (UI Styling Properties)
+
+Used to make divs look clean, modern, and structured.
+
+### Box Model
+
+* `width`
+* `height`
+* `padding`
+* `margin`
+* `box-sizing`
+
+### Border
+
+* `border`
+* `border-radius`
+* `border-color`
+* `border-style`
+
+### Background
+
+* `background-color`
+* `background-image`
+* `background-size`
+* `background-position`
+* `background-repeat`
+
+### Shadow & Depth
+
+* `box-shadow`
+
+### Layout
+
+* `display`
+* `flex`
+* `grid`
+* `justify-content`
+* `align-items`
+* `gap`
+
+### Positioning
+
+* `position`
+* `top`
+* `left`
+* `right`
+* `bottom`
+* `z-index`
+
+### Text Styling in Div
+
+* `color`
+* `font-size`
+* `font-family`
+* `font-weight`
+* `text-align`
+* `line-height`
+
+---
+
+## 3) Form Design CSS Properties
+
+Used to design clean, professional forms.
+
+### Input & Form Structure
+
+* `display`
+* `width`
+* `max-width`
+* `padding`
+* `margin`
+* `box-sizing`
+
+### Input Styling
+
+* `border`
+* `border-radius`
+* `outline`
+* `background-color`
+* `color`
+* `font-size`
+
+### Focus Effects
+
+* `:focus`
+* `border-color`
+* `box-shadow`
+
+### Labels
+
+* `display: block`
+* `margin-bottom`
+* `font-weight`
+
+### Buttons
+
+* `background-color`
+* `color`
+* `border`
+* `border-radius`
+* `cursor: pointer`
+* `transition`
+* `hover effects`
+
+### Validation UI
+
+* `:valid`
+* `:invalid`
+* `:required`
+* `:disabled`
+
+---
+
+## Professional Learning Goal
+
+This task builds:
+
+* Selector logic
+* UI structuring
+* Real-world form design skills
+* Internship-level CSS understanding
+
+This is internship-grade structured knowledge, not beginner fluff.
