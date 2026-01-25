@@ -1,0 +1,106 @@
+ body {
+     font-family: Arial, sans-serif;
+     background: #f2f4f7;
+     padding: 40px;
+ }
+
+ h2 {
+     margin-top: 40px;
+ }
+
+ /* ================= BUTTON STYLES ================= */
+
+ .btn {
+     padding: 12px 28px;
+     border: none;
+     border-radius: 6px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: 0.3s ease;
+     margin: 10px;
+ }
+
+ .btn-primary {
+     background: #2563eb;
+     color: white;
+ }
+
+ .btn-primary:hover {
+     background: #1e40af;
+     transform: scale(1.05);
+ }
+
+ .btn-outline {
+     background: transparent;
+     border: 2px solid #2563eb;
+     color: #2563eb;
+ }
+
+ .btn-outline:hover {
+     background: #2563eb;
+     color: white;
+ }
+
+ .btn-glow {
+     background: #22c55e;
+     color: white;
+     box-shadow: 0 0 10px #22c55e;
+ }
+
+ .btn-glow:hover {
+     box-shadow: 0 0 25px #22c55e;
+ }
+
+ /* ================= ANCHOR EFFECTS ================= */
+
+ a {
+     text-decoration: none;
+     font-size: 18px;
+     margin: 10px;
+     display: inline-block;
+     position: relative;
+ }
+
+ /* underline animation */
+ .link-underline {
+     color: #111827;
+ }
+
+ .link-underline::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: -4px;
+     width: 0;
+     height: 2px;
+     background: #2563eb;
+     transition: 0.3s;
+ }
+
+ .link-underline:hover::after {
+     width: 100%;
+ }
+
+ /* color change */
+ .link-color {
+     color: #374151;
+     transition: 0.3s;
+ }
+
+ .link-color:hover {
+     color: #2563eb;
+ }
+
+ /* box hover effect */
+ .link-box {
+     padding: 8px 16px;
+     border: 1px solid #2563eb;
+     border-radius: 5px;
+     color: #2563eb;
+     transition: 0.3s;
+ }
+
+ .link-box:hover {
+     background: #2563eb;
+     color: white;
+ }

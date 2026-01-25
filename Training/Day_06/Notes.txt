@@ -1,173 +1,52 @@
-# Day 6 – CSS Task Notes
+Day 05 – JavaScript (Validation)
 
-## 1) CSS Selectors
+🔹 Validation in JavaScript
 
-Selectors are used to target HTML elements for styling.
+- Validation means checking user input before processing it
+- Validation ensures data is correct, complete, and usable
+- Validation helps prevent errors in applications
+- Validation improves user experience
+- Validation increases system reliability
 
-### Basic Selectors
+🔹 Why Validation is Important
 
-* `*` → Universal selector (all elements)
-* `element` → Type selector (e.g. `div`, `p`, `input`)
-* `.class` → Class selector
-* `#id` → ID selector
+- Prevents invalid data entry
+- Avoids system crashes and bugs
+- Maintains data quality
+- Improves application stability
+- Protects application logic
 
-### Grouping
+🔹 Types of Validation
 
-* `h1, h2, p` → Group selector
+- Empty validation (input should not be blank)
+- Length validation (minimum / maximum characters)
+- Type validation (number, string, email, etc.)
+- Format validation (email format, phone format)
+- Range validation (value within limit)
+- Logical validation (valid values like age > 0)
 
-### Descendant & Child
+🔹 Validation Flow
 
-* `div p` → Descendant selector
-* `div > p` → Direct child selector
+- User enters data
+- Event is triggered (submit / click / input)
+- Validation logic executes
+- Data is checked
+- If invalid → error message shown
+- If valid → data accepted
 
-### Sibling
+🔹 Real-life Examples
 
-* `h1 + p` → Adjacent sibling
-* `h1 ~ p` → General sibling
+- Username cannot be empty
+- Password must be minimum length
+- Email must be in correct format
+- Age must be a number
+- Phone number must be valid length
 
-### Attribute
+🔹 Day 05 Summary
 
-* `input[type="text"]`
-* `a[href]`
-
-### Pseudo-class
-
-* `:hover`
-* `:focus`
-* `:active`
-* `:checked`
-* `:first-child`
-* `:last-child`
-
-### Pseudo-element
-
-* `::before`
-* `::after`
-* `::first-letter`
-* `::first-line`
-
----
-
-## 2) Div Look (UI Styling Properties)
-
-Used to make divs look clean, modern, and structured.
-
-### Box Model
-
-* `width`
-* `height`
-* `padding`
-* `margin`
-* `box-sizing`
-
-### Border
-
-* `border`
-* `border-radius`
-* `border-color`
-* `border-style`
-
-### Background
-
-* `background-color`
-* `background-image`
-* `background-size`
-* `background-position`
-* `background-repeat`
-
-### Shadow & Depth
-
-* `box-shadow`
-
-### Layout
-
-* `display`
-* `flex`
-* `grid`
-* `justify-content`
-* `align-items`
-* `gap`
-
-### Positioning
-
-* `position`
-* `top`
-* `left`
-* `right`
-* `bottom`
-* `z-index`
-
-### Text Styling in Div
-
-* `color`
-* `font-size`
-* `font-family`
-* `font-weight`
-* `text-align`
-* `line-height`
-
----
-
-## 3) Form Design CSS Properties
-
-Used to design clean, professional forms.
-
-### Input & Form Structure
-
-* `display`
-* `width`
-* `max-width`
-* `padding`
-* `margin`
-* `box-sizing`
-
-### Input Styling
-
-* `border`
-* `border-radius`
-* `outline`
-* `background-color`
-* `color`
-* `font-size`
-
-### Focus Effects
-
-* `:focus`
-* `border-color`
-* `box-shadow`
-
-### Labels
-
-* `display: block`
-* `margin-bottom`
-* `font-weight`
-
-### Buttons
-
-* `background-color`
-* `color`
-* `border`
-* `border-radius`
-* `cursor: pointer`
-* `transition`
-* `hover effects`
-
-### Validation UI
-
-* `:valid`
-* `:invalid`
-* `:required`
-* `:disabled`
-
----
-
-## Professional Learning Goal
-
-This task builds:
-
-* Selector logic
-* UI structuring
-* Real-world form design skills
-* Internship-level CSS understanding
-
-This is internship-grade structured knowledge, not beginner fluff.
+Understood the concept of validation
+Learned why validation is important
+Learned different types of validation
+Learned how validation works in flow
+Implemented input checking logic
+Applied validation in JavaScript logic

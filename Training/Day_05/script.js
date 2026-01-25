@@ -1,128 +1,26 @@
-// ================================
-// Day 05 – JavaScript Validation
-// ================================
+// Button click event
+const clickBtn = document.getElementById("clickBtn");
+const msg = document.getElementById("msg");
 
+clickBtn.addEventListener("click", function () {
+    msg.innerText = "Button Clicked! Function Executed.";
+});
 
-// ================================
-// Validation Functions
-// ================================
+// Input event
+const nameInput = document.getElementById("nameInput");
+const nameText = document.getElementById("nameText");
 
-// Empty validation
-function isEmpty(value) {
-    if (value === "" || value === null || value === undefined) {
-        return true;
-    }
-    return false;
-}
+nameInput.addEventListener("keyup", function () {
+    nameText.innerText = "Hello, " + nameInput.value;
+});
 
-// Length validation
-function minLength(value, length) {
-    if (value.length < length) {
-        return false;
-    }
-    return true;
-}
+// Mouse events
+const hoverBtn = document.getElementById("hoverBtn");
 
-// Type validation (number check)
-function isNumber(value) {
-    if (isNaN(value)) {
-        return false;
-    }
-    return true;
-}
+hoverBtn.addEventListener("mouseover", function () {
+    hoverBtn.style.background = "#16a34a";
+});
 
-// Email format validation (basic)
-function isValidEmail(email) {
-    if (email.includes("@") && email.includes(".")) {
-        return true;
-    }
-    return false;
-}
-
-// Range validation
-function isValidAge(age) {
-    if (age > 0 && age <= 100) {
-        return true;
-    }
-    return false;
-}
-
-
-// ================================
-// Input Handling
-// ================================
-
-function getUserData() {
-    let username = document.getElementById("username").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let age = document.getElementById("age").value.trim();
-    let password = document.getElementById("password").value.trim();
-
-    validateUserData(username, email, age, password);
-}
-
-
-// ================================
-// Main Validation Logic
-// ================================
-
-function validateUserData(username, email, age, password) {
-
-    // Username validation
-    if (isEmpty(username)) {
-        console.log("Error: Username cannot be empty");
-        alert("Username cannot be empty");
-        return;
-    }
-
-    // Email validation
-    if (isEmpty(email)) {
-        console.log("Error: Email cannot be empty");
-        alert("Email cannot be empty");
-        return;
-    }
-
-    if (!isValidEmail(email)) {
-        console.log("Error: Invalid email format");
-        alert("Invalid email format");
-        return;
-    }
-
-    // Age validation
-    if (isEmpty(age)) {
-        console.log("Error: Age cannot be empty");
-        alert("Age cannot be empty");
-        return;
-    }
-
-    if (!isNumber(age)) {
-        console.log("Error: Age must be a number");
-        alert("Age must be a number");
-        return;
-    }
-
-    if (!isValidAge(age)) {
-        console.log("Error: Age must be between 1 and 100");
-        alert("Age must be between 1 and 100");
-        return;
-    }
-
-    // Password validation
-    if (isEmpty(password)) {
-        console.log("Error: Password cannot be empty");
-        alert("Password cannot be empty");
-        return;
-    }
-
-    if (!minLength(password, 6)) {
-        console.log("Error: Password must be at least 6 characters");
-        alert("Password must be at least 6 characters");
-        return;
-    }
-
-    // If all validations pass
-    console.log("Validation Successful ✅");
-    console.log("User data is valid and accepted");
-
-    alert("Validation Successful ✅\nUser data is valid!");
-}
+hoverBtn.addEventListener("mouseout", function () {
+    hoverBtn.style.background = "#2563eb";
+});

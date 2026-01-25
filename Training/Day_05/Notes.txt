@@ -1,52 +1,73 @@
-Day 05 – JavaScript (Validation)
+Day 5 Internship Task Notes
+Topic: Functions & Events (JavaScript)
 
-🔹 Validation in JavaScript
+====================================
+FUNCTIONS
+====================================
+A function is a reusable block of code that performs a specific task.
 
-- Validation means checking user input before processing it
-- Validation ensures data is correct, complete, and usable
-- Validation helps prevent errors in applications
-- Validation improves user experience
-- Validation increases system reliability
+Syntax Concept:
+function functionName(){
+    // code
+}
 
-🔹 Why Validation is Important
+Purpose of Functions:
+- Code reusability
+- Better structure
+- Easy debugging
+- Logical separation
+- Clean programming
 
-- Prevents invalid data entry
-- Avoids system crashes and bugs
-- Maintains data quality
-- Improves application stability
-- Protects application logic
+====================================
+EVENTS
+====================================
+Events are actions performed by the user or browser that trigger JavaScript.
 
-🔹 Types of Validation
+Common Events:
+- onclick → when user clicks
+- onkeyup → when key is released
+- onmouseover → when mouse enters
+- onmouseout → when mouse leaves
+- onload → when page loads
+- onchange → when input changes
 
-- Empty validation (input should not be blank)
-- Length validation (minimum / maximum characters)
-- Type validation (number, string, email, etc.)
-- Format validation (email format, phone format)
-- Range validation (value within limit)
-- Logical validation (valid values like age > 0)
+====================================
+FUNCTIONS + EVENTS RELATION
+====================================
+Events call functions.
+Example:
+Button click → Event triggers → Function executes
 
-🔹 Validation Flow
+This connects user action with program logic.
 
-- User enters data
-- Event is triggered (submit / click / input)
-- Validation logic executes
-- Data is checked
-- If invalid → error message shown
-- If valid → data accepted
+====================================
+EVENT TYPES USED IN TASK
+====================================
+1) Click Event
+   - Button click triggers function
 
-🔹 Real-life Examples
+2) Input Event
+   - Typing triggers function
 
-- Username cannot be empty
-- Password must be minimum length
-- Email must be in correct format
-- Age must be a number
-- Phone number must be valid length
+3) Mouse Event
+   - Hover triggers function
 
-🔹 Day 05 Summary
+====================================
+LEARNING OUTCOME
+====================================
+- Understood JavaScript functions
+- Learned event handling
+- Learned DOM interaction
+- Learned real-time UI update
+- Learned user interaction logic
 
-Understood the concept of validation
-Learned why validation is important
-Learned different types of validation
-Learned how validation works in flow
-Implemented input checking logic
-Applied validation in JavaScript logic
+====================================
+CONCEPT SUMMARY
+====================================
+Functions handle logic.
+Events handle interaction.
+Together they create dynamic websites.
+
+====================================
+STATUS: COMPLETED
+Day 5 Task: Functions & Events

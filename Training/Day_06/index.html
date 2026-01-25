@@ -1,72 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Day 6 - CSS Task</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Day 05 - JavaScript Validation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <h1 id="main-title">Day 6 CSS Task</h1>
+    <div class="container">
+        <h2>User Validation Form</h2>
 
-    <!-- Selectors Demo Section -->
-    <section class="selectors-section">
-        <h2>CSS Selectors Demo</h2>
+        <input type="text" id="username" placeholder="Enter Username">
+        <input type="text" id="email" placeholder="Enter Email">
+        <input type="text" id="age" placeholder="Enter Age">
+        <input type="password" id="password" placeholder="Enter Password">
 
-        <div class="box">
-            <p>This is a paragraph inside a div</p>
-            <p class="highlight">This is a class selector example</p>
-            <button>Click Me</button>
+        <button onclick="getUserData()">Validate</button>
+
+        <div class="note">
+            Day 05 – JavaScript Validation Task
         </div>
+    </div>
 
-        <ul>
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
-        </ul>
-
-        <input type="text" placeholder="Text input">
-        <input type="email" placeholder="Email input">
-    </section>
-
-    <!-- Div Look Section -->
-    <section class="div-section">
-        <h2>Div Look Design</h2>
-
-        <div class="card-container">
-            <div class="card">
-                <h3>Card One</h3>
-                <p>Simple card layout using div styling.</p>
-                <button>Read More</button>
-            </div>
-
-            <div class="card">
-                <h3>Card Two</h3>
-                <p>Clean UI with spacing and shadow.</p>
-                <button>Read More</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Form Design Section -->
-    <section class="form-section">
-        <h2>Form Design</h2>
-
-        <div class="form-box">
-            <form>
-                <label>Name</label>
-                <input type="text" required>
-
-                <label>Email</label>
-                <input type="email" required>
-
-                <label>Password</label>
-                <input type="password" required>
-
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
-
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -27,7 +27,8 @@
 }
 
 /* group selector */
-h1, h2 {
+h1,
+h2 {
     color: #222;
 }
 
@@ -37,7 +38,7 @@ h1, h2 {
 }
 
 /* child selector */
-.form-box > form {
+.form-box>form {
     display: flex;
     flex-direction: column;
 }
@@ -74,7 +75,7 @@ button:hover {
     padding: 15px;
     background-color: #f2f2f2;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -97,7 +98,7 @@ button:hover {
     max-width: 300px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-box label {
@@ -116,7 +117,7 @@ button:hover {
 .form-box input:focus {
     outline: none;
     border-color: black;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .form-box button {
