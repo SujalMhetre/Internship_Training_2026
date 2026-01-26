@@ -63,5 +63,3 @@ LEARNING OUTCOME
 - Learned interactive UI design concepts
 
 ====================================
-STATUS: COMPLETED
-Day 8 Task: Button Look & Anchor CSS Effect

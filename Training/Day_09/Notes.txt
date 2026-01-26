@@ -1,0 +1,125 @@
+Day 09 Internship Task Notes
+Topic: Bootstrap Container, Grid System & Card Layout
+
+====================================
+BOOTSTRAP BASICS
+====================================
+Bootstrap is a front-end CSS framework used to build responsive and modern UI quickly.
+
+Key Concepts:
+- Uses pre-written CSS classes
+- No need to write CSS for basic styling
+- Class-based design system
+- Responsive by default
+- Mobile-first approach
+
+CDN Concept:
+- Bootstrap CDN links load CSS and JS directly from the internet
+- Enables Bootstrap features without downloading files
+
+====================================
+CONTAINER SYSTEM
+====================================
+Containers are used to structure and center content.
+
+Types:
+- container → fixed-width responsive container
+- container-fluid → full-width container
+
+Purpose:
+- Adds padding automatically
+- Centers content
+- Maintains layout alignment
+- Controls page width
+
+Example:
+<div class="container">...</div>
+
+====================================
+GRID SYSTEM
+====================================
+Bootstrap uses a 12-column grid system.
+
+Structure:
+container → row → column
+
+Key Classes:
+- row → creates horizontal layout row
+- col → column
+- col-12 → full width
+- col-md-6 → half width
+- col-md-4 → one-third width
+
+Responsive Classes:
+- col-12 → mobile
+- col-md-* → tablet
+- col-lg-* → desktop
+
+Purpose:
+- Responsive layouts
+- Automatic alignment
+- Clean structure
+- Device adaptability
+
+====================================
+CARD COMPONENT
+====================================
+Cards are pre-designed content boxes in Bootstrap.
+
+Main Classes:
+- card
+- card-img-top
+- card-body
+- card-title
+- card-text
+- btn btn-primary
+
+Structure:
+card → image → body → title → text → button
+
+Purpose:
+- Display content
+- Product cards
+- Profile cards
+- Blog cards
+- Service cards
+- Portfolio cards
+
+====================================
+STYLING CONCEPT
+====================================
+Bootstrap provides default styling automatically.
+
+Custom CSS is used only for:
+- Custom colors
+- Shadows
+- Hover effects
+- Animations
+- Branding
+- Unique UI design
+
+Concept:
+Bootstrap = Structure + Styling + Responsiveness
+Developer = Layout logic + class usage
+
+====================================
+CONCEPT SUMMARY
+====================================
+- Container controls layout width
+- Grid controls structure
+- Cards control content design
+- Bootstrap classes replace manual CSS
+- Layout is responsive by default
+
+====================================
+LEARNING OUTCOME
+====================================
+- Understood Bootstrap framework usage
+- Learned container system
+- Learned grid structure
+- Learned responsive design
+- Learned card component
+- Learned class-based styling system
+- Understood Bootstrap workflow
+
+====================================
